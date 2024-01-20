@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="todoApp">
+            <h2>TO DO LIST <img src="./images/icon.png"></h2>
+            <div class="task-input">
+                <div class="input">
+                    <input type="text" id="inputTask" placeholder="Enter a task"><img src="./images/add2.png"
+                        alt="Add Task icon" id="addTaskIcon"></input>
+                </div>
+                <div class="taskButtons">
+                    <button id="completeTasks" class="taskButton">Complete All Tasks</button>
+                    <button id="clearCompleted" class="taskButton">Clear Completed</button>
+                </div>
+            </div>
+            <div class="taskAddition">
+            </div>
+            <div class="taskDetails">
+                <div id="taskCount">
+
+                </div>
+                <div id="filters">
+                    <button id="alltasks" class="taskButton2" onclick="filterTasks('all')">All Tasks</button>
+                    <button id="completedtasks" class="taskButton2" onclick="filterTasks('completed')">Completed
+                        Tasks</button>
+                    <button id="incompletetasks" class="taskButton2" onclick="filterTasks('incompleted')">Incomplete
+                        Tasks</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
