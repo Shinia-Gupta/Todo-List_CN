@@ -83,3 +83,7 @@ Contributions are welcome! If you'd like to contribute to the Todo List App, ple
 
 ![image](https://github.com/Shinia-Gupta/Todo-List_CN/assets/113818197/e392d2f8-4acf-41f5-a308-7ad64f5cb126)
 
+
+## Live Demo
+
+[Project Live Demo](https://shinia-gupta.github.io/Todo-List_CN/)
