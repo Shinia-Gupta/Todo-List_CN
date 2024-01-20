@@ -10,6 +10,7 @@ Todo List App is a web application developed using HTML, CSS, and JavaScript. It
 - [Usage](#usage)
 - [Contributing](#contributing)
 - [Screenshots of Project](#screenshots-of-project)
+- [Live Demo](#live-demo)
 
 ## Introduction
 
